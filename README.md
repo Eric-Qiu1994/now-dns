@@ -1,2 +1,4 @@
 # now-dns
-now-dns linuxDDNS更新
+now-dns 的linuxDDNS更新
+
+
