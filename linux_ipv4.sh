@@ -25,7 +25,7 @@ fi
 
 # 如果IP地址不一致，则执行curl命令
 if [ $check_info -eq 1 ]; then
-    curl -u your_acc:your_passwd"https://now-dns.com/update?hostname=$doms"
+    curl -u your_acc:your_passwd"https://now-dns.com/update?hostname=$domain"
     killall curl
 else
     #echo "IP addresses are identical. Exiting script."
